@@ -1,0 +1,23 @@
+{
+  "origin": "https://noir-and-form-umber.vercel.app",
+  "capturedAt": "2026-10-22T12:28:39.553Z",
+  "method": "Actual Playwright Chrome browser captures, with real page scrolling and font/image decoding.",
+  "desktopHomeViewport": {
+    "width": 1440,
+    "height": 900
+  },
+  "mobileHomeViewport": {
+    "width": 390,
+    "height": 844
+  },
+  "files": [
+    "desktop-home.png",
+    "mobile-home.png",
+    "desktop-shop.png",
+    "mobile-shop.png",
+    "product-detail.png",
+    "shopping-cart.png",
+    "desktop-home-viewport.png",
+    "mobile-home-viewport.png"
+  ]
+}

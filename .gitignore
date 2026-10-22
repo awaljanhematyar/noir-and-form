@@ -1,0 +1,22 @@
+node_modules/
+.npm-cache/
+dist/
+.env*
+!.env.example
+.vercel/
+test-results/
+playwright-report/
+*.log
+.DS_Store
+Thumbs.db
+docs/qa/browser-cache/
+docs/asset-contact-sheet.*
+docs/qa/lighthouse/
+docs/qa/browser-results.json
+# Session-only orchestration helpers are kept locally, outside the published application.
+scripts/update-plans.py
+scripts/reconcile-docs.py
+scripts/record-progress.py
+scripts/inspect-release-access.py
+scripts/publish-github.py
+scripts/deploy-vercel.py

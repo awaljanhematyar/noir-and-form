@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /cart
+Disallow: /checkout
+Disallow: /wishlist
+Disallow: /order-confirmation
+Sitemap: https://noir-and-form-umber.vercel.app/sitemap.xml

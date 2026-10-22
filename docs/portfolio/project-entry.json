@@ -1,0 +1,12 @@
+{
+  "title": "NOIR & FORM — Premium Fashion E-Commerce",
+  "slug": "noir-and-form",
+  "category": "E-Commerce Website",
+  "technologies": ["React", "Vite", "JavaScript", "Tailwind CSS", "React Router", "Lucide React"],
+  "github_url": "https://github.com/awaljanhematyar/noir-and-form",
+  "live_url": "https://noir-and-form-umber.vercel.app",
+  "cover_url": "https://noir-and-form-umber.vercel.app/portfolio-cover.png",
+  "portfolio_url": "https://hematyar-professional-portfolio.vercel.app/projects/noir-and-form",
+  "cover_source": "noir-and-form-cover.png",
+  "cover_dimensions": [3200, 1800]
+}

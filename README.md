@@ -1,0 +1,54 @@
+# NOIR & FORM
+
+A premium fashion e-commerce portfolio demo for a fictional Toronto brand.
+
+[Live website](https://noir-and-form-umber.vercel.app) · [Source](https://github.com/awaljanhematyar/noir-and-form) · [Case study](docs/portfolio/case-study.md)
+
+![Desktop and mobile storefront](docs/portfolio/noir-and-form-cover.png)
+
+## Release
+
+React 19, Vite, JavaScript, Tailwind CSS v4, React Router and Lucide React. Thirty fictional products, responsive editorial design, combined filtering, stock-aware variants, persistent wishlist/cart and validated simulated checkout.
+
+Build, lint, 14 unit/integration tests and 17 local Chrome browser tests pass. See [QA evidence and limitations](docs/QA.md) for live verification and measured performance.
+
+Checkout uses illustrative CAD shipping and tax. No real payments, orders, fulfillment or message delivery. Only wishlist/cart persist; personal form details and confirmation do not.
+
+## Documentation
+
+- [PRD.md](PRD.md): scope, routes, catalog, journeys, shopping/form behavior, and acceptance targets.
+- [architecture.md](architecture.md): proposed components, data/state, persistence, tests, and deployment.
+- [design.md](design.md): authoritative approved visual system and accessible UI guidance.
+- [rules.md](rules.md): engineering constraints and approval boundaries.
+- [phases.doc.md](phases.doc.md): phase deliverables, validation, and gates.
+- [memory.md](memory.md): actual progress, decisions, and remaining work.
+- [CODEX_MASTER_PROMPT.md](CODEX_MASTER_PROMPT.md): phase-limited execution workflow; not implementation authorization.
+
+## Run locally
+
+Requires Node.js 22.19+ (Node 24 used for development and release) and npm.
+
+```sh
+npm ci
+npm run dev
+npm run build
+npm run preview
+npm run lint
+npm test
+npm run test:browser
+```
+
+Browser tests use installed Chrome at the Windows path in playwright.config.js. Set `CHROME_PATH` to a legitimate installed browser executable on another machine, and `BASE_URL` to the preview or live origin. Start `npm run preview` before browser tests. No environment secrets are needed by the application.
+
+## Implemented experience
+
+- Editorial homepage, 30-product shop, collection index/details, product pages, About, Contact, policies, wishlist/cart/checkout/confirmation, and custom 404.
+- Combined URL-based search/category/collection/size/color/price filters, sorting, and Load more.
+- Image galleries, explicit size/color selection, variant-specific demo stock, quantity caps, saved wishlist and cart, resilient storage and cross-tab updates.
+- Validated local-only forms, honest demo confirmation, integer CAD calculations, and no payment/card/backend integration.
+- Responsive layouts, native keyboard-accessible dialogs, focus handling, image fallbacks, reduced-motion styles, lazy routes, local fonts, and responsive local images.
+
+## Engineering and evidence
+
+See [CODE_GUIDE.md](docs/CODE_GUIDE.md) for responsibilities and comment conventions, [ASSETS.md](docs/ASSETS.md) for photo/font rights and limitations, and [memory.md](memory.md) for actual validation and release status. Browser evidence is recorded under docs/qa; original captures and the device cover belong under docs/portfolio. A client-rendered SPA has crawler/social-preview and HTTP-404 limitations; no SSR or accessibility certification is claimed.
+

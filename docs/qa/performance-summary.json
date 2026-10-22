@@ -1,0 +1,86 @@
+[
+  {
+    "route": "/",
+    "run": 1,
+    "origin": "https://noir-and-form-umber.vercel.app",
+    "timestamp": "2026-10-22T12:25:02.514Z",
+    "scores": {
+      "performance": 0,
+      "accessibility": 0,
+      "best-practices": 0,
+      "seo": 0
+    },
+    "lcpMs": null,
+    "tbtMs": null,
+    "issues": []
+  },
+  {
+    "route": "/",
+    "run": 2,
+    "origin": "https://noir-and-form-umber.vercel.app",
+    "timestamp": "2026-10-22T12:25:51.994Z",
+    "scores": {
+      "performance": 83,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "lcpMs": 2761,
+    "cls": 0.0029274253680078343,
+    "tbtMs": 234,
+    "issues": [
+      {
+        "id": "first-contentful-paint",
+        "title": "First Contentful Paint",
+        "displayValue": "2.4 s"
+      },
+      {
+        "id": "largest-contentful-paint",
+        "title": "Largest Contentful Paint",
+        "displayValue": "2.8 s"
+      },
+      {
+        "id": "speed-index",
+        "title": "Speed Index",
+        "displayValue": "6.3 s"
+      },
+      {
+        "id": "total-blocking-time",
+        "title": "Total Blocking Time",
+        "displayValue": "230 ms"
+      },
+      {
+        "id": "max-potential-fid",
+        "title": "Max Potential First Input Delay",
+        "displayValue": "520 ms"
+      },
+      {
+        "id": "interactive",
+        "title": "Time to Interactive",
+        "displayValue": "3.1 s"
+      },
+      {
+        "id": "mainthread-work-breakdown",
+        "title": "Minimize main-thread work",
+        "displayValue": "2.2 s"
+      },
+      {
+        "id": "image-delivery-insight",
+        "title": "Improve image delivery",
+        "displayValue": "Est savings of 21 KiB"
+      },
+      {
+        "id": "lcp-breakdown-insight",
+        "title": "LCP breakdown"
+      },
+      {
+        "id": "network-dependency-tree-insight",
+        "title": "Network dependency tree"
+      },
+      {
+        "id": "render-blocking-insight",
+        "title": "Render-blocking requests"
+      }
+    ]
+  }
+]

@@ -17,12 +17,12 @@ Checkout uses illustrative CAD shipping and tax. No real payments, orders, fulfi
 ## Documentation
 
 - [PRD.md](PRD.md): scope, routes, catalog, journeys, shopping/form behavior, and acceptance targets.
-- [architecture.md](architecture.md): proposed components, data/state, persistence, tests, and deployment.
+- [architecture.md](architecture.md): implemented components, data/state, persistence, tests, and deployment.
 - [design.md](design.md): authoritative approved visual system and accessible UI guidance.
 - [rules.md](rules.md): engineering constraints and approval boundaries.
 - [phases.doc.md](phases.doc.md): phase deliverables, validation, and gates.
 - [memory.md](memory.md): actual progress, decisions, and remaining work.
-- [CODEX_MASTER_PROMPT.md](CODEX_MASTER_PROMPT.md): phase-limited execution workflow; not implementation authorization.
+- [CODEX_MASTER_PROMPT.md](CODEX_MASTER_PROMPT.md): execution brief and standing authorization.
 
 ## Run locally
 
@@ -46,9 +46,8 @@ Browser tests use installed Chrome at the Windows path in playwright.config.js. 
 - Combined URL-based search/category/collection/size/color/price filters, sorting, and Load more.
 - Image galleries, explicit size/color selection, variant-specific demo stock, quantity caps, saved wishlist and cart, resilient storage and cross-tab updates.
 - Validated local-only forms, honest demo confirmation, integer CAD calculations, and no payment/card/backend integration.
-- Responsive layouts, native keyboard-accessible dialogs, focus handling, image fallbacks, reduced-motion styles, lazy routes, local fonts, and responsive local images.
+- Responsive layouts, native keyboard-accessible dialogs, focus handling, image fallbacks, reduced-motion styles, critical shopping routes in the shell and lazy informational routes, local fonts, and responsive local images.
 
 ## Engineering and evidence
 
 See [CODE_GUIDE.md](docs/CODE_GUIDE.md) for responsibilities and comment conventions, [ASSETS.md](docs/ASSETS.md) for photo/font rights and limitations, and [memory.md](memory.md) for actual validation and release status. Browser evidence is recorded under docs/qa; original captures and the device cover belong under docs/portfolio. A client-rendered SPA has crawler/social-preview and HTTP-404 limitations; no SSR or accessibility certification is claimed.
-

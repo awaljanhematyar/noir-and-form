@@ -6,19 +6,11 @@ import { useStore } from './Store';
 import Home from '../pages/Home';
 import { collections, products } from '../data/catalog';
 
-const Shop = lazy(() => import('../pages/Shop'));
-const Product = lazy(() => import('../pages/Product'));
-const Collections = lazy(() => import('../pages/Collections'));
-const Cart = lazy(() => import('../pages/Commerce').then((module) => ({ default: module.Cart })));
-const Wishlist = lazy(() =>
-  import('../pages/Commerce').then((module) => ({ default: module.Wishlist })),
-);
-const Checkout = lazy(() =>
-  import('../pages/Commerce').then((module) => ({ default: module.Checkout })),
-);
-const Confirmation = lazy(() =>
-  import('../pages/Commerce').then((module) => ({ default: module.Confirmation })),
-);
+// Critical shopping routes load with the shell to avoid a second network dependency.
+import Shop from '../pages/Shop';
+import Product from '../pages/Product';
+import Collections from '../pages/Collections';
+import { Cart, Wishlist, Checkout, Confirmation } from '../pages/Commerce';
 const About = lazy(() => import('../pages/Content').then((module) => ({ default: module.About })));
 const Contact = lazy(() =>
   import('../pages/Content').then((module) => ({ default: module.Contact })),

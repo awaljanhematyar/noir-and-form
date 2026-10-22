@@ -5,7 +5,7 @@
       "D:\\noir-and-form\\node_modules\\@playwright\\test\\cli.js",
       "test",
       "--grep",
-      "discovery, wishlist"
+      "discovery, wishlist|filters combine|all routes|capture authentic"
     ],
     "configFile": "D:\\noir-and-form\\playwright.config.js",
     "rootDir": "D:/noir-and-form/e2e",
@@ -122,12 +122,12 @@
                   "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 15830,
+                  "duration": 18436,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2026-10-22T12:30:27.134Z",
+                  "startTime": "2026-10-22T13:16:57.928Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -139,15 +139,117 @@
           "file": "shopping.spec.js",
           "line": 6,
           "column": 1
+        },
+        {
+          "title": "filters combine, empty results reset, and unavailable variants remain unavailable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8379,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T13:17:17.331Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b0487ea30994dece155a-4253eaf8e021d139550a",
+          "file": "shopping.spec.js",
+          "line": 59,
+          "column": 1
+        },
+        {
+          "title": "all routes load directly and unknown paths recover",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 24839,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T13:17:25.744Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b0487ea30994dece155a-d9cdb3fd766e300f8cbb",
+          "file": "shopping.spec.js",
+          "line": 97,
+          "column": 1
+        },
+        {
+          "title": "capture authentic desktop and mobile project screenshots",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17002,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-22T13:17:50.616Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b0487ea30994dece155a-c69fefc9f12242c442af",
+          "file": "shopping.spec.js",
+          "line": 179,
+          "column": 1
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2026-10-22T12:30:24.527Z",
-    "duration": 24188.785,
-    "expected": 1,
+    "startTime": "2026-10-22T13:16:55.876Z",
+    "duration": 72674.89,
+    "expected": 4,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
